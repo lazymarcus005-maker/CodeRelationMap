@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0",
+  "architecture": {
+    "defaultFlow": [
+      "endpoint",
+      "request",
+      "handler",
+      "service_interface",
+      "service_implementation",
+      "external_client_or_repository",
+      "response",
+      "unit_test"
+    ],
+    "requireHandlerForEndpoint": true,
+    "requireValidatorForRequest": true,
+    "requireUnitTestForHandler": true,
+    "requireDiRegistrationForService": true,
+    "requireOpenApiMetadataForPublicEndpoint": true,
+    "externalHttpMustUseTypedClient": true,
+    "forbidDirectHttpClientInHandler": true,
+    "forbidRepositoryAccessInController": true
+  },
+  "naming": {
+    "querySuffix": "Query",
+    "commandSuffix": "Command",
+    "handlerSuffix": "Handler",
+    "validatorSuffix": "Validator",
+    "serviceInterfacePrefix": "I",
+    "serviceSuffix": "Service",
+    "repositoryInterfacePrefix": "I",
+    "repositorySuffix": "Repository",
+    "clientInterfacePrefix": "I",
+    "clientSuffix": "Client",
+    "testSuffix": "Tests"
+  },
+  "folders": {
+    "controllers": [
+      "Controllers",
+      "Features"
+    ],
+    "handlers": [
+      "Handlers",
+      "Features",
+      "Application"
+    ],
+    "services": [
+      "Services",
+      "Application/Services"
+    ],
+    "repositories": [
+      "Repositories",
+      "Infrastructure/Repositories"
+    ],
+    "clients": [
+      "Clients",
+      "Infrastructure/Clients"
+    ],
+    "validators": [
+      "Validators",
+      "Features"
+    ],
+    "tests": [
+      "Tests",
+      "UnitTests"
+    ]
+  },
+  "testing": {
+    "supportedFrameworks": [
+      "xUnit",
+      "NUnit",
+      "MSTest"
+    ],
+    "requireHappyPathTest": true,
+    "requireValidationFailureTest": true,
+    "requireDependencyFailureTest": true,
+    "preferredMockLibraries": [
+      "NSubstitute",
+      "Moq"
+    ]
+  },
+  "changeGuardrails": {
+    "forbidUnrelatedFileChanges": true,
+    "maxChangedFiles": 12,
+    "requireReasonForSharedContractChange": true,
+    "requireReasonForDatabaseMigration": true
+  }
+}

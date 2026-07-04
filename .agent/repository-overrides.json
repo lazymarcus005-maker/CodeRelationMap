@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "repository": "CXPaymentAPI",
+  "overrides": {
+    "architecture": {
+      "requireHandlerForEndpoint": false,
+      "requireValidatorForRequest": false
+    },
+    "folders": {
+      "services": [
+        "Business",
+        "ApplicationServices"
+      ]
+    },
+    "testing": {
+      "preferredMockLibraries": [
+        "Moq"
+      ]
+    },
+    "changeGuardrails": {
+      "maxChangedFiles": 18
+    }
+  },
+  "notes": [
+    "This repository uses controller-to-service flow for legacy endpoints.",
+    "New endpoints should use the current handler pattern where applicable."
+  ]
+}
