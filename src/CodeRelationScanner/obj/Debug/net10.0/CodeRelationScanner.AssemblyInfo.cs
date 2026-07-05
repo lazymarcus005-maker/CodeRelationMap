@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeRelationScanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b33908915478b6575aa213611542efa5c9cb11b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeRelationScanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeRelationScanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

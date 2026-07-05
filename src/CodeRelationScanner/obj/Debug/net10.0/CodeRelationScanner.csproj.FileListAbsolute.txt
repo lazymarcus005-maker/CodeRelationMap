@@ -9,3 +9,7 @@ Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\CodeRelationScanner.dll
 Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\refint\CodeRelationScanner.dll
 Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\CodeRelationScanner.pdb
 Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\ref\CodeRelationScanner.dll
+Y:\CodeGen\src\CodeRelationScanner\bin\Debug\net10.0\CodeRelationScanner.exe
+Y:\CodeGen\src\CodeRelationScanner\bin\Debug\net10.0\CodeRelationScanner.runtimeconfig.json
+Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\CodeRelationScanner.sourcelink.json
+Y:\CodeGen\src\CodeRelationScanner\obj\Debug\net10.0\CodeRelationScanner.genruntimeconfig.cache

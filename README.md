@@ -105,6 +105,61 @@ Partial overrides are deep-merged, so omitted settings keep the effective global
 
 ## Usage
 
+### Run from CLI
+
+Prerequisite: install the .NET SDK that supports `net10.0`.
+
+From the repository root:
+
+```powershell
+dotnet restore
+dotnet build
+```
+
+Scan the current repository and print the relation map JSON to the console:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- .
+```
+
+Scan another workspace:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- "C:\path\to\workspace"
+```
+
+Use a global team rule file:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- . --global-rules .agent/team-rules.json
+```
+
+Write output to a file:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- . --output artifacts/relation-map.json
+```
+
+The optional `scan` verb is also supported:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- scan . --global-rules .agent/team-rules.json --output artifacts/relation-map.json
+```
+
+Show CLI help:
+
+```powershell
+dotnet run --project src/CodeRelationScanner -- --help
+```
+
+Exit codes:
+
+- `0`: scan completed
+- `1`: invalid arguments or workspace path not found
+- `2`: scan failed while reading or processing files
+
+### Use from C#
+
 ```csharp
 var scanner = new CodeRelationScanner();
 var map = scanner.Scan(workspacePath);

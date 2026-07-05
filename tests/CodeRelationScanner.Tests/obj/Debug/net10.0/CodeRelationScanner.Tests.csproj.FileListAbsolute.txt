@@ -98,3 +98,7 @@ Y:\CodeGen\tests\CodeRelationScanner.Tests\obj\Debug\net10.0\refint\CodeRelation
 Y:\CodeGen\tests\CodeRelationScanner.Tests\obj\Debug\net10.0\CodeRelationScanner.Tests.pdb
 Y:\CodeGen\tests\CodeRelationScanner.Tests\obj\Debug\net10.0\CodeRelationScanner.Tests.genruntimeconfig.cache
 Y:\CodeGen\tests\CodeRelationScanner.Tests\obj\Debug\net10.0\ref\CodeRelationScanner.Tests.dll
+Y:\CodeGen\tests\CodeRelationScanner.Tests\bin\Debug\net10.0\CodeRelationScanner.deps.json
+Y:\CodeGen\tests\CodeRelationScanner.Tests\bin\Debug\net10.0\CodeRelationScanner.runtimeconfig.json
+Y:\CodeGen\tests\CodeRelationScanner.Tests\bin\Debug\net10.0\CodeRelationScanner.exe
+Y:\CodeGen\tests\CodeRelationScanner.Tests\obj\Debug\net10.0\CodeRelationScanner.Tests.sourcelink.json
