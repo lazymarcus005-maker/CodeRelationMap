@@ -1,0 +1,24 @@
+# .NET build output
+bin/
+obj/
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# User/editor files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Scanner generated output
+.agent/relation-map*.json
+artifacts/
+
+# OS files
+Thumbs.db
+.DS_Store
